@@ -91,14 +91,13 @@ WSGI_APPLICATION = 'user_management.wsgi.application'
 
 
 
-
 DATABASES = {
      'default': {
          'ENGINE': 'django.db.backends.postgresql',
          'NAME': 'postgres',
          'USER': 'postgres.ihyqbcghgvniksvjqccj',
-         'PASSWORD': '1sS3zT6Fi20LG2Ev',
-         'HOST': 'aws-0-eu-west-1.pooler.supabase.com',
+         'PASSWORD': 'KtnD6pqk1TxdFp2K',
+         'HOST': 'db.rerzxipxpzwzgdetnakb.supabase.co',
          'PORT': '6543',
      }
  }
