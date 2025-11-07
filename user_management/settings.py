@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 from os import getenv
 
+
 # To keep secret keys in environment variables
 from dotenv import load_dotenv # type: ignore
 
