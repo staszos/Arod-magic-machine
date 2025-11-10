@@ -15,6 +15,11 @@ def arod_main_FAQ(request):
 
 def arod_main_role_tariff(request):
     return render(request, 'main_donation_structure/arod_main_role_tariff.html')
+def arod_main_mix_donat_1(request):
+    return render(request, 'main_donation_structure/arod_main_mix_donat_1.html')
+def arod_main_other_services(request):
+    return render(request, 'main_donation_structure/arod_main_other_services.html')
+
 
 
 
